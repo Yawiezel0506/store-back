@@ -14,7 +14,11 @@
   "license": "ISC",
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
+
     "@types/cors": "^2.8.17",
+
+    "@types/dotenv": "^8.2.0",
+
     "@types/express": "^4.17.21",
     "@types/joi": "^17.2.3",
     "@types/mongoose": "^5.11.97",
@@ -22,12 +26,18 @@
     "express": "^4.18.2",
     "nodemon": "^3.0.1",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "@types/morgan": "^1.9.9"
   },
   "dependencies": {
     "@types/mongoose": "^5.11.97",
     "@types/morgan": "^1.9.9",
     "bcrypt": "^5.1.1",
+
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "joi": "^17.11.0",
+
     "chalk": "^5.3.0",
     "joi": "^17.11.0",
     "mongoose": "^8.0.1"

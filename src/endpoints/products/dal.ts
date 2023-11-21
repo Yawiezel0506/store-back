@@ -51,7 +51,7 @@ const upsert = async (body: Product | Product[]) => {
                 const newProduct = new ProductModel(item);
                 console.log('save2');
 
-                newProduct.save((err)=>{
+                newProduct.save((err)=> {
                     if (err) {
                         console.log('error');
                         return 'boom';
